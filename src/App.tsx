@@ -4,7 +4,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 const App = () => {
   return (
-    <BrowserRouter basename="/Persona2">
+    <BrowserRouter>
       <Switch>
         <Route exact path="/">
           <TitleScreen />
